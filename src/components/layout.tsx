@@ -7,7 +7,6 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 import Header from "./header"
 
 interface Props {
@@ -18,11 +17,8 @@ const Layout: React.FunctionComponent<Props> = ({ children }) => {
   return (
     <>
       <Header />
-      <div className="h-screen">
+      <div className="pb-16 bg-gradient-to-b from-red to-purple">
         <main>{children}</main>
-        <footer>
-          <Link to="privacy-policy">Privacy</Link>
-        </footer>
       </div>
     </>
   )

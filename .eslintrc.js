@@ -19,6 +19,6 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
-    "explicit-module-boundary-types": "off",
+    "react/prop-types": "off",
   },
 }

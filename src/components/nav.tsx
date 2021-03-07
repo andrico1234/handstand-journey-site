@@ -2,7 +2,7 @@ import React from "react"
 
 export const Nav: React.FunctionComponent = () => {
   return (
-    <div className="fixed bg-gradient-to-r from-red to-purple bg-red h-16 w-full shadow">
+    <div className="fixed z-10 bg-gradient-to-r from-red to-purple h-16 w-full">
       <nav className="flex flex-row fixed justify-between w-full bg-white">
         <a className="text-xl p-4 font-semibold" href="/">
           Handstand Journey

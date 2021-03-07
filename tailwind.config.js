@@ -18,6 +18,30 @@ module.exports = {
         red: colors.red,
         purple: colors.purple,
       },
+      minHeight: {
+        "1/4": "25%",
+        "1/2": "50%",
+        "3/4": "75%",
+      },
+      maxWidth: {
+        "1/4": "25%",
+        "1/2": "50%",
+        "3/4": "75%",
+      },
+      fontFamily: {
+        body: [
+          "Rubik",
+          "Roboto",
+          '"Helvetica Neue"',
+          "Arial",
+          '"Noto Sans"',
+          "sans-serif",
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+      },
     },
   },
   variants: {
