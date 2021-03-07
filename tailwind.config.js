@@ -1,5 +1,5 @@
 const colors = {
-  black: '#16181c',
+  black: "#16181c",
   red: {
     DEFAULT: "#f54400",
   },
@@ -21,7 +21,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderColor: ["hover"],
+      borderWidth: ["hover"],
+    },
   },
   plugins: [],
 }

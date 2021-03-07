@@ -7,29 +7,20 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql, Link } from "gatsby"
-
+import { Link } from "gatsby"
 import Header from "./header"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+interface Props {
+  children: React.ReactNode
+}
 
+const Layout: React.FunctionComponent<Props> = ({ children }) => {
   return (
     <>
       <Header />
-      <div>
-        <main className="h-screen">{children}</main>
+      <div className="h-screen">
+        <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
           <Link to="privacy-policy">Privacy</Link>
         </footer>
       </div>

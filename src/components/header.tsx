@@ -1,8 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { Nav } from "./nav"
 
-const Header = () => (
+const Header: React.FunctionComponent = () => (
   <header>
     <Nav />
   </header>

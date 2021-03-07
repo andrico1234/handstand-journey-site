@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const PrivacyPolicy = () => (
+const PrivacyPolicy: React.FunctionComponent = () => (
   <Layout>
     <SEO title="Privacy Policy" />
     <h1>Hi from the second page</h1>
