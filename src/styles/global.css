@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#privacy-policy p {
+  margin: 16px 0;
+}
+
+#privacy-policy a {
+  text-decoration: underline;
+}
