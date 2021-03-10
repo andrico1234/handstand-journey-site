@@ -18,7 +18,8 @@ const valueProps = [
       "Pick from a choice of goals, and we'll give you your easy to follow program",
     image: (
       <StaticImage
-        width={208}
+        width={300}
+        placeholder="blurred"
         src="../images/pixel.png"
         alt="iPhone showing workout preview"
       />
@@ -32,7 +33,8 @@ const valueProps = [
       "Follow along to each workout in real time with our easy to use in-app workout and we'll keep track of the workouts you've completed.",
     image: (
       <StaticImage
-        width={208}
+        width={300}
+        placeholder="blurred"
         src="../images/galaxy.png"
         alt="iPhone showing workout preview"
       />
@@ -46,7 +48,8 @@ const valueProps = [
       "We'll guide you through your workout and check-in with form cues, timers, and advice.",
     image: (
       <StaticImage
-        width={208}
+        width={300}
+        placeholder="blurred"
         src="../images/iphone-sr.png"
         alt="iPhone showing workout preview"
       />
@@ -60,7 +63,8 @@ const valueProps = [
       "Learn how to perform each exercise with perfect form with out exercise diary.",
     image: (
       <StaticImage
-        width={208}
+        width={300}
+        placeholder="blurred"
         src="../images/iphone-12.png"
         alt="iPhone showing workout preview"
       />

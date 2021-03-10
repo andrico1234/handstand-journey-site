@@ -29,7 +29,7 @@ export const LandingPageValue: React.FunctionComponent<Props> = props => {
           </Heading>
           <p className="text-xl font-light font-body my-4">{body}</p>
         </div>
-        <div className={`${imageMargin} w-52 min-w-max`}>{image}</div>
+        <div className={`${imageMargin} w-80 min-w-max`}>{image}</div>
       </div>
     </SegmentWrapper>
   )

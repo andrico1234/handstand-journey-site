@@ -17,7 +17,7 @@ const Layout: React.FunctionComponent<Props> = ({ children }) => {
     <>
       <Header />
       <div className="pb-16 bg-gradient-to-b from-red to-purple">
-        <main>{children}</main>
+        <main className="overflow-hidden">{children}</main>
       </div>
     </>
   )
