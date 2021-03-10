@@ -6,7 +6,6 @@
  */
 
 import * as React from "react"
-import PropTypes from "prop-types"
 import Header from "./header"
 
 interface Props {
@@ -22,10 +21,6 @@ const Layout: React.FunctionComponent<Props> = ({ children }) => {
       </div>
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

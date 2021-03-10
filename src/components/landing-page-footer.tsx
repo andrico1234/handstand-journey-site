@@ -1,10 +1,13 @@
 import { Link } from "gatsby"
 import React from "react"
+import { SegmentWrapper } from "./segment-wrapper"
 
 export const LandingPageFooter: React.FunctionComponent = () => {
   return (
-    <p className="text-center text-white text-lg underline p-2">
-      <Link to="/privacy-policy">Privacy Policy</Link>
-    </p>
+    <SegmentWrapper>
+      <p className="text-center text-white text-lg underline">
+        <Link to="/privacy-policy">Privacy Policy</Link>
+      </p>
+    </SegmentWrapper>
   )
 }
