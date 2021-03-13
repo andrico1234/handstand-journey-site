@@ -8,13 +8,12 @@ export const Nav: React.FunctionComponent = () => {
           Handstand Journey
         </a>
         <ul className="flex flex-row items-center">
-          <li className="p-2">
-            <a className="p-2 border-black hover:border-b" href="/login">
-              iOS
-            </a>
-          </li>
+          <li className="p-2 opacity-70 cursor-not-allowed">iOS</li>
           <li className="p-2 relative">
-            <a className="p-2 border-black hover:border-b" href="/home">
+            <a
+              className="p-2 border-black hover:border-b"
+              href="https://play.google.com/store/apps/details?id=com.caliskillsapp&hl=en&gl=US"
+            >
               Android
             </a>
           </li>

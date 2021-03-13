@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-#privacy-policy p {
+#privacy-policy p,
+#terms-and-conditions p {
   margin: 16px 0;
 }
 
-#privacy-policy a {
+#privacy-policy a,
+#terms-and-conditions a {
   text-decoration: underline;
 }
